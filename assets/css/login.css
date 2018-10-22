@@ -1,0 +1,113 @@
+.login-box-wrapper .modal-header,
+.login-box-wrapper .modal-footer {
+    background: #EEE
+}
+
+.login-box-wrapper .modal-body {
+    padding: 25px 25px 20px
+}
+
+.login-box-wrapper .modal-title {
+    line-height: 1;
+    margin: 0;
+    text-transform: lowercase;
+    font-weight: 700
+}
+
+.login-modal-or {
+    margin: 45px 0 25px;
+    text-align: center;
+    font-weight: 600
+}
+
+.login-modal-or > div {
+    border-top: 1px solid #DDD;
+    position: relative;
+    height: 14px
+}
+
+.login-modal-or > div > span {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: red;
+    border-radius: 50%;
+    line-height: 38px;
+    font-size: 10px;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -20px;
+    margin-top: -20px;
+    text-transform: uppercase;
+    border: 1px solid #DDD;
+    background: #FFF
+}
+
+.login-box-link-action {
+    text-align: right
+}
+
+.login-box-box-action {
+    margin-top: 10px
+}
+
+.btn-facebook,
+.btn-google-plus {
+    color: #FFF
+}
+
+.btn-facebook {
+    background: #3b5998
+}
+
+.btn-google-plus {
+    background: #d34836
+}
+
+.btn-facebook:hover,
+.btn-google-plus:hover {
+    opacity: .8
+}
+
+.login-container-wrapper {
+    padding: 70px 0
+}
+
+.login-container-wrapper .login-box-wrapper {
+    border: 1px solid #DDD;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 0 11px -1px rgba(0, 0, 0, 0.16);
+    -moz-box-shadow: 0 0 11px -1px rgba(0, 0, 0, 0.16);
+    box-shadow: 0 0 11px -1px rgba(0, 0, 0, 0.16)
+}
+
+.modal.login-box-wrapper {
+    width: 600px;
+    margin-left: -300px
+}
+
+@media only screen and (max-width: 1199px) {}
+
+@media only screen and (max-width: 991px) {
+    .login-modal-or {
+        margin-top: 80px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .modal.login-box-wrapper {
+        width: auto;
+        margin-left: auto!
+    }
+    .login-box-link-action {
+        text-align: left;
+        margin-top: 10px
+    }
+    .login-modal-or {
+        margin-top: 45px
+    }
+}
+
+@media (max-width: 479px) {}
